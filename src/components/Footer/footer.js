@@ -14,13 +14,13 @@ const Footer = () => {
 
                 <div className='footer__wrapper__menu'>
                     <Link to="/Nosotros" className='footer__wrapper__menu__link'>
-                        Nosotros
+                        About Us
                     </Link>
                     <Link to="/Cursos" className='footer__wrapper__menu__link'>
-                        Cursos
+                        Courses
                     </Link>
                     <Link to="/Cotacto" className='footer__wrapper__menu__link'>
-                        Contacto
+                        Contact
                     </Link>
                 </div>
 
