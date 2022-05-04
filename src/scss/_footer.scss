@@ -1,0 +1,47 @@
+.footer {
+
+    display: flex;
+    align-items: center;
+
+    background-color: black;
+    height: 12rem;
+
+    &__wrapper {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: min(90%, 120rem);
+        margin: 0 auto;
+
+        &__marca {
+
+            font-size: 4.8rem;
+            color: white;
+
+            &-bold {
+
+                font-weight: bold;
+
+            }
+
+        }
+
+        &__menu {
+
+            display: flex;
+            gap: 2rem;
+    
+            &__link {
+                text-align: center;
+                font-size: 1.8rem;
+                color: white;
+            }
+    
+        }
+
+    }
+
+
+}

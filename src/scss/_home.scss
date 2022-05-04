@@ -1,0 +1,112 @@
+.main {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+
+    &__articles {
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        &__title{
+
+            margin-bottom: 0;
+
+        }
+
+        &__card {
+            
+            border-bottom: 1px solid #ccc;
+
+            &__button {
+
+                display: inline-block;
+
+                font-family: var(--HeadFont);
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: white;
+
+                background-color: black;
+                padding: 1rem 3rem;
+
+                margin-bottom: 2rem;
+
+            }
+
+            &:last-of-type{
+
+                border-bottom: none;
+
+            }
+
+        }
+
+
+    }
+
+    &__courses{
+
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        &__title{
+
+            margin-bottom: 0;
+
+        }
+
+        &__card {
+            
+            border-bottom: 1px solid #ccc;
+
+            &__price, &__tickets {
+
+                font-size: 2rem;
+
+                span{
+
+                    font-weight: bold;
+
+                }
+
+            }
+
+
+            &__button {
+
+                display: inline-block;
+
+                font-family: var(--HeadFont);
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: white;
+
+                background-color: var(--primary);
+                padding: 1rem 3rem;
+
+                margin-bottom: 2rem;
+
+            }
+
+            &:last-of-type{
+
+                border-bottom: none;
+
+            }
+
+        }
+
+
+    }
+
+}
