@@ -32,13 +32,13 @@
 
             display: flex;
             gap: 2rem;
-    
+
             &__link {
                 text-align: center;
                 font-size: 1.8rem;
                 color: rgba(255, 255, 255, 0.5);
             }
-    
+
         }
 
     }
@@ -46,8 +46,19 @@
 
 }
 
-.active{
+.active {
 
     color: #fff;
+
+}
+
+@media (max-width: 800px) {
+
+    .footer__wrapper__menu {
+
+        display: none;
+
+    }
+
 
 }

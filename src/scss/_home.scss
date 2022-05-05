@@ -6,7 +6,7 @@
 
     width: 90%;
     max-width: 120rem;
-    margin: 2rem auto;
+    margin: 4rem auto;
 
     &__articles {
 
@@ -14,14 +14,14 @@
         flex-direction: column;
         gap: 2rem;
 
-        &__title{
+        &__title {
 
-            margin-bottom: 0;
+            margin: 0;
 
         }
 
         &__card {
-            
+
             border-bottom: 1px solid #ccc;
 
             &__button {
@@ -30,6 +30,7 @@
 
                 font-family: var(--HeadFont);
                 text-transform: uppercase;
+                text-align: center;
                 font-size: 1.8rem;
                 font-weight: bold;
                 color: white;
@@ -41,7 +42,7 @@
 
             }
 
-            &:last-of-type{
+            &:last-of-type {
 
                 border-bottom: none;
 
@@ -52,27 +53,28 @@
 
     }
 
-    &__courses{
+    &__courses {
 
         display: flex;
         flex-direction: column;
         gap: 3rem;
 
-        &__title{
+        &__title {
 
-            margin-bottom: 0;
+            margin: 0;
 
         }
 
         &__widget {
-            
+
             border-bottom: 1px solid #ccc;
 
-            &__price, &__tickets {
+            &__price,
+            &__tickets {
 
                 font-size: 2rem;
 
-                span{
+                span {
 
                     font-weight: bold;
 
@@ -83,7 +85,7 @@
 
             &__button {
 
-                display: inline-block;
+                display: block;
 
                 font-family: var(--HeadFont);
                 text-transform: uppercase;
@@ -99,7 +101,7 @@
 
             }
 
-            &:last-of-type{
+            &:last-of-type {
 
                 border-bottom: none;
 
@@ -107,6 +109,23 @@
 
         }
 
+
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .main {
+
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+
+        &__articles__card__button {
+
+            display: block;
+
+        }
 
     }
 

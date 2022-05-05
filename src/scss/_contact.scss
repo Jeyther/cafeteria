@@ -58,12 +58,12 @@
             flex: 1;
 
             border: 1px solid #ccc;
-            
+
             width: 100%;
-            
+
         }
-        
-        & textarea{
+
+        & textarea {
 
             height: 20rem;
 
@@ -80,7 +80,7 @@
             border: none;
             padding: 1rem 4rem;
 
-            &:hover{
+            &:hover {
 
                 cursor: pointer;
 
@@ -89,5 +89,20 @@
         }
 
     }
+
+}
+
+@media (max-width: 800px) {
+
+    .contact__form:last-child {
+
+        button {
+
+            width: 100%;
+
+        }
+
+    }
+
 
 }

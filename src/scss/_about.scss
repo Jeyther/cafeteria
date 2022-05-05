@@ -1,4 +1,4 @@
-.about{
+.about {
 
     display: flex;
     flex-direction: column;
@@ -8,32 +8,34 @@
     max-width: 128rem;
     margin: 4rem auto;
 
-    &__title{
+    &__title {
 
         text-align: center;
         margin: 0;
 
     }
 
-    &__container{
+    &__container {
 
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
 
-        margin-bottom: 4rem;
+    }
 
-        &__img{
+}
 
-            background-image: url('./../../public/img/nosotros.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
+@media (max-width: 800px) {
 
+    .about {
+
+        &__container {
+
+            grid-template-columns: 1fr;
 
         }
 
-
-
     }
+
 
 }
