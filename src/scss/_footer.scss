@@ -36,12 +36,18 @@
             &__link {
                 text-align: center;
                 font-size: 1.8rem;
-                color: white;
+                color: rgba(255, 255, 255, 0.5);
             }
     
         }
 
     }
 
+
+}
+
+.active{
+
+    color: #fff;
 
 }

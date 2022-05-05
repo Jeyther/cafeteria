@@ -5,6 +5,8 @@ import './scss/origin.scss';
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
 import AboutUs from './components/About Us/AboutUs';
+import Courses from './components/Courses/Courses';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Courses" element={<Courses />} />
+        <Route path="/Contact" element={<Contact />} />
 
       </Routes>
 

@@ -9,7 +9,7 @@ const ArticleCard = ({item}) => {
             <img src={item.image} alt="" className="main__articles__card__image" />
 
             <div className="main__articles__card__text">
-                <h2 className="main__articles__card__text__title no-margin">{item.title}</h2>
+                <h3 className="main__articles__card__text__title no-margin">{item.title}</h3>
                 <p className="main__articles__card__text__description">{item.summary}</p>
                 <Link to={"/blog/" + item.id} className="main__articles__card__button">Read more</Link>
             </div>

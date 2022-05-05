@@ -12,7 +12,7 @@
     max-width: 128rem;
     margin: 0 auto;
     margin-top: 2rem;
-    
+
     &__brand {
 
         font-size: 4.8rem;
@@ -29,12 +29,83 @@
     &__menu {
 
         display: flex;
-        gap: 2rem;
+        column-gap: 2rem;
 
         &__link {
+
+            position: relative;
+            
             text-align: center;
             font-size: 1.8rem;
-            color: white;
+            color: rgba(255, 255, 255, 0.75);
+
+            padding: 0 1.5rem;
+
+            &:before {
+
+                position: absolute;
+
+                left: 10%;
+                right: 10%;
+                top: 50%;
+
+                content: "";
+
+                border-left: 12px solid #c0392b;
+                border-right: 12px solid #c0392b;
+
+                transform: translateY(-50%); // move top/bottom to middle of element (almost imperceptible)
+                transition: all 0.3s ease; 
+
+                height: 3px; 
+                opacity: 0; 
+
+            }
+
+            &:hover {
+
+                color: #ffffff;
+
+                &:before {
+
+                    left: 0;
+                    right: 0;
+                    opacity: 1;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.active{
+
+    color: #fff;
+
+    &:before{
+
+        left: 0;
+        right: 0;
+        opacity: 1;
+
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .navbar {
+
+        flex-direction: column;
+
+        &__menu{
+
+            flex-direction: column;
+
         }
 
     }

@@ -1,0 +1,63 @@
+.courses{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    width: 90%;
+    max-width: 128rem;
+    margin: 4rem auto;
+
+    &__title{
+
+        margin: 0;
+
+    }
+
+    &__card{
+
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+
+        border-bottom: 1px solid #ccc;
+
+        padding: 1rem 0rem;
+
+        &__text{
+
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            h4, p{
+    
+                margin: 0;
+    
+            }
+            
+            &__price, &__tickets{
+
+                font-size: 2rem;
+
+                span{
+
+                    font-weight: bold;
+
+                }
+
+            }
+
+        }
+
+        &:last-child{
+
+            border-bottom: none;
+
+        }
+
+
+    }
+}

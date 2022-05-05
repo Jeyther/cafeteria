@@ -1,6 +1,6 @@
 import React from 'react';
 import ArticleCardContainer from '../Articles/ArticleCardContainer';
-import CoursesCardContainer from '../CoursesCardContainer/CoursesCardContainer';
+import CoursesContainer from '../Courses/CoursesContainer';
 
 const Main = () => {
     return (
@@ -9,7 +9,7 @@ const Main = () => {
 
             <main className='main__articles'>
 
-                <h3 className='main__articles__title'>Our Blog</h3>
+                <h2 className='main__articles__title'>Our Blog</h2>
 
                 <ArticleCardContainer/>
 
@@ -19,7 +19,7 @@ const Main = () => {
 
                 <h3  className='main__courses__title'>Our Courses and Workshops</h3>
 
-                <CoursesCardContainer />
+                <CoursesContainer isWidget = {true}/>
 
             </aside>
 
