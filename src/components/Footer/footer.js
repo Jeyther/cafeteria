@@ -13,16 +13,16 @@ const Footer = () => {
                 </NavLink>
 
                 <div className='footer__wrapper__menu'>
-                    <NavLink to="/" className='footer__wrapper__menu__link'>
+                    <NavLink to="/cafeteria/" className='footer__wrapper__menu__link'>
                         Home
                     </NavLink>
-                    <NavLink to="/AboutUs" className='footer__wrapper__menu__link'>
+                    <NavLink to="/AboutUs/" className='footer__wrapper__menu__link'>
                         About Us
                     </NavLink>
-                    <NavLink to="/Courses" className='footer__wrapper__menu__link'>
+                    <NavLink to="/Courses/" className='footer__wrapper__menu__link'>
                         Courses
                     </NavLink>
-                    <NavLink to="/Contact" className='footer__wrapper__menu__link'>
+                    <NavLink to="/Contact/" className='footer__wrapper__menu__link'>
                         Contact
                     </NavLink>
                 </div>

@@ -7,7 +7,7 @@
         "description": "For coffee enthusiasts who want to brew a better cup of java at home with our organic coffee beans, here are six popular manual coffee brewing methods to consider using, beyond the household automatic coffee maker. Your preferred method will boil down to your personal taste, time and technique!",
         "price": 100,
         "tickets": "10",
-        "image": "./img/curso1.jpg"
+        "image": "./../cafeteria/img/curso1.jpg"
 
     },
     {
@@ -17,7 +17,7 @@
         "description": "The Coffee Workshop is a business specialising in the supply of roasting equipment, green and small-batch roasted coffee beans. We're proud to provide coffee shops around New Zealand with their own onsite micro-roasting facilities, a roast-while-you-wait service for the freshest beans and blends, and a daily coffee fix for many happy locals. We've got your every coffee need more than covered!",
         "price": 200,
         "tickets": "2",
-        "image": "./img/curso2.jpg"
+        "image": "./../cafeteria/img/curso2.jpg"
 
     },
     {
@@ -27,7 +27,7 @@
         "description": "This is a collection of four coffee recipes for beginners. You can make your own coffee with these recipes, or use them as inspiration for your own recipes. You can also use them as inspiration for your own recipes. You can also use them as inspiration for your own recipes. You can also use them as inspiration for your own recipes.",
         "price": "Free",
         "tickets": "20",
-        "image": "./img/curso3.jpg"
+        "image": "./../cafeteria/img/curso3.jpg"
 
     }
 

@@ -15,17 +15,17 @@ const NavBar = () => {
 
         //navbar component
         <nav className="navbar">
-            <NavLink to="/" className="navbar__brand">
+            <NavLink to="/cafeteria/" className="navbar__brand">
                 Coffee<span className='navbar__brand-bold'>Land</span>
             </NavLink>
 
             {isOpen ?
             (
-            <span class="material-symbols-outlined navbar__button" onClick={() => setIsOpen(!isOpen)}>
+            <span className="material-symbols-outlined navbar__button" onClick={() => setIsOpen(!isOpen)}>
                 close
             </span>
             ) : (
-            <span class="material-symbols-outlined navbar__button" onClick={() => setIsOpen(!isOpen)}>
+            <span className="material-symbols-outlined navbar__button" onClick={() => setIsOpen(!isOpen)}>
                 menu
             </span>
             )}
@@ -34,22 +34,22 @@ const NavBar = () => {
             <div className={`navbar__menu ${isOpen ? 'show' : ''}`}>
             {/* <div className={`navbar__menu`} style={style} onClick={() => setIsOpen(false)}> */}
                 <div className='navbar__menu__item'>
-                    <NavLink to="/" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
+                    <NavLink to="/cafeteria/" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
                         Home
                     </NavLink>
                 </div>
                 <div className='navbar__menu__item'>
-                    <NavLink to="/AboutUs" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
+                    <NavLink to="/AboutUs/" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
                         About Us
                     </NavLink>
                 </div>
                 <div className='navbar__menu__item'>
-                    <NavLink to="/Courses" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
+                    <NavLink to="/Courses/" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
                         Courses
                     </NavLink>
                 </div>
                 <div className='navbar__menu__item'>
-                    <NavLink to="/Contact" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
+                    <NavLink to="/Contact/" className='navbar__menu__item__link' onClick={() => setIsOpen(false)}>
                         Contact
                     </NavLink>
                 </div>

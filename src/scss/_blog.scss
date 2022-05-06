@@ -1,0 +1,19 @@
+.blog{
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    margin: 4rem auto;
+
+    width: 90%;
+    max-width: 128rem;
+
+    &__title{
+
+        text-align: center;
+        margin: 0;
+
+    }
+
+}
