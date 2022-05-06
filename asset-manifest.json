@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/cafeteria/static/css/main.031a246f.css",
-    "main.js": "/cafeteria/static/js/main.da8278e2.js",
+    "main.js": "/cafeteria/static/js/main.db6c780d.js",
     "static/js/787.c7889db3.chunk.js": "/cafeteria/static/js/787.c7889db3.chunk.js",
     "static/media/contacto.jpg": "/cafeteria/static/media/contacto.7f5b500d2604f1af8383.jpg",
     "static/media/banner.jpg": "/cafeteria/static/media/banner.503c99fc93a10fb02dd4.jpg",
     "index.html": "/cafeteria/index.html",
     "main.031a246f.css.map": "/cafeteria/static/css/main.031a246f.css.map",
-    "main.da8278e2.js.map": "/cafeteria/static/js/main.da8278e2.js.map",
+    "main.db6c780d.js.map": "/cafeteria/static/js/main.db6c780d.js.map",
     "787.c7889db3.chunk.js.map": "/cafeteria/static/js/787.c7889db3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.031a246f.css",
-    "static/js/main.da8278e2.js"
+    "static/js/main.db6c780d.js"
   ]
 }
