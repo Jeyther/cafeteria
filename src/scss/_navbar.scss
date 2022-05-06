@@ -12,6 +12,7 @@
     max-width: 128rem;
     margin: 0 auto;
     margin-top: 2rem;
+    transition: top 0.3s ease,bottom 0.3s ease;
 
     &__brand {
 
@@ -32,8 +33,10 @@
         column-gap: 2rem;
         transition: top 3s ease;
 
+        transition: top 0.3s ease,bottom 0.3s ease;
 
         &__item {
+            transition: top 0.3s ease,bottom 0.3s ease;
 
             &__link {
 
@@ -42,6 +45,7 @@
                 text-align: center;
                 font-size: 1.8rem;
                 color: rgba(255, 255, 255, 0.75);
+                transition: top 0.3s ease,bottom 0.3s ease;
 
                 padding: 0 1.5rem;
 
@@ -93,7 +97,8 @@
         color: white;
         font-size: 4rem;
 
-        cursor: pointer;
+    transition: top 0.3s ease,bottom 0.3s ease;
+    cursor: pointer;
 
     }
 
@@ -124,6 +129,7 @@
         width: 100%;
         margin: 0;
         padding: 0rem 4rem;
+    transition: top 0.3s ease,bottom 0.3s ease;
         
         &__menu {
             
@@ -137,15 +143,20 @@
             background-color: black;
             
             left: 0;
-            top:9rem;
+            top: auto;
+            bottom: 10rem;
+            // top: 9rem;
 
-            transition: transform 0.3s ease;
+            // transition: transform 0.3s ease;
+    transition: top 0.3s ease,bottom 0.3s ease;
+            
 
             z-index: -1;
 
             &__item {
 
                 margin: 0 auto;
+                transition: top 0.3s ease,bottom 0.3s ease;
 
             }
 
@@ -154,6 +165,7 @@
         &__button {
 
             display: block;
+            transition: top 0.3s ease,bottom 0.3s ease;
 
         }
     }
@@ -161,11 +173,6 @@
 }
 
 .show {
-
-
-
-
     top: 9rem;
     bottom: auto;
-
 }
