@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.85c32d4e.css",
-    "main.js": "/static/js/main.c6d7d4ac.js",
-    "static/js/787.c7889db3.chunk.js": "/static/js/787.c7889db3.chunk.js",
-    "static/media/contacto.jpg": "/static/media/contacto.7f5b500d2604f1af8383.jpg",
-    "static/media/banner.jpg": "/static/media/banner.503c99fc93a10fb02dd4.jpg",
-    "index.html": "/index.html",
-    "main.85c32d4e.css.map": "/static/css/main.85c32d4e.css.map",
-    "main.c6d7d4ac.js.map": "/static/js/main.c6d7d4ac.js.map",
-    "787.c7889db3.chunk.js.map": "/static/js/787.c7889db3.chunk.js.map"
+    "main.css": "/cafeteria/static/css/main.031a246f.css",
+    "main.js": "/cafeteria/static/js/main.c4b9d222.js",
+    "static/js/787.c7889db3.chunk.js": "/cafeteria/static/js/787.c7889db3.chunk.js",
+    "static/media/contacto.jpg": "/cafeteria/static/media/contacto.7f5b500d2604f1af8383.jpg",
+    "static/media/banner.jpg": "/cafeteria/static/media/banner.503c99fc93a10fb02dd4.jpg",
+    "index.html": "/cafeteria/index.html",
+    "main.031a246f.css.map": "/cafeteria/static/css/main.031a246f.css.map",
+    "main.c4b9d222.js.map": "/cafeteria/static/js/main.c4b9d222.js.map",
+    "787.c7889db3.chunk.js.map": "/cafeteria/static/js/787.c7889db3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c32d4e.css",
-    "static/js/main.c6d7d4ac.js"
+    "static/css/main.031a246f.css",
+    "static/js/main.c4b9d222.js"
   ]
 }
